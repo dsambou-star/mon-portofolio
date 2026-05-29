@@ -1,0 +1,39 @@
+img {
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+
+}
+body{
+    background: url(papin.jpeg);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: normal;
+    background-position: left;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+em{
+    color: deeppink;
+}
+div,ul,li,a{
+    color: #fff;
+    text-decoration: none;
+     display: flex;
+     text-align: center;
+    gap: 20px;
+   
+
+}
+a:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+ul,li{
+    t
+}
