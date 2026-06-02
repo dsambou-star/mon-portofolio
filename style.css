@@ -6,7 +6,7 @@ img {
 }
 body{
     background: url(papin.jpeg);
-    color: #fff;
+    color: #000;
     font-family: 'Times New Roman', Times, serif;
     font-size: normal;
     background-position: left;
@@ -17,6 +17,7 @@ body{
 p{
     font-size: 20px;
     text-align: center;
+    color: #fff;
 }
 em{
     color: deeppink;
@@ -32,8 +33,15 @@ div,ul,li,a{
 }
 a:hover{
     color: deeppink;
-    text-decoration: underline;
+    border-bottom: 3px solid deeppink;
+    transition: all ease 0.3s;
 }
 ul,li{
-    t
+    
+}
+.competence{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3b3bc5;
 }
