@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+img {
+    border-radius: 40px;
+    width: 100px;
+    height: 100px;
+
+}
+body{
+     background: url(papin.jpeg); 
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: normal;
+    background-position: left;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+em{
+    color: deeppink;
+}
+div,ul,li,a{
+    margin: 20px;
+     color: #fff; 
+    text-decoration: none;
+     display: flex;
+     text-align: center;
+    gap: 10px;
+   
+   
+
+}
+a:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+ul,li{
+    
+}
+.competence{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background-color: #0d3262;
+}
+@media screen (max-width: la taille de l'ecran) {
+
+    
+}
